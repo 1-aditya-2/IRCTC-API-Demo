@@ -65,13 +65,6 @@ npm install
 }
 ```
 
-**Response:**
-```json
-{
-  "message": "User registered successfully"
-}
-```
-
 #### 2. Login
 
 **Method:** POST
@@ -86,33 +79,12 @@ npm install
 }
 ```
 
-**Response:**
-```json
-{
-  "message": "Login successful",
-  "token": "JWT_TOKEN"
-}
-```
-
 #### 3. Check train availability
 
 **Method:** GET
 
 **Endpoint:** `/user/availability?source=Ranchi&destination=Delhi`
 
-**Response:**
-```json
-{
-  "available": true,
-  "availableTrainCount": 2,
-  "trains": [
-    {
-      "trainNumber": "12345",
-      "availableSeats": 20
-    }
-  ]
-}
-```
 
 #### 4. Book Seats
 
@@ -125,13 +97,6 @@ npm install
 {
   "trainId": 1,
   "seatsToBook": 2
-}
-```
-
-**Response:**
-```json
-{
-  "message": "Seats booked successfully"
 }
 ```
 
@@ -173,13 +138,6 @@ npm install
 }
 ```
 
-**Response:**
-```json
-{
-  "message": "Train added successfully"
-}
-```
-
 #### 2. Update seat availability
 
 **Method:** PUT
@@ -190,13 +148,6 @@ npm install
 ```json
 {
   "availableSeats": 80
-}
-```
-
-**Response:**
-```json
-{
-  "message": "Seat availability updated"
 }
 ```
 
