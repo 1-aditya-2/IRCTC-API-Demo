@@ -156,4 +156,3 @@ The booking system uses a MySQL row-level lock to prevent multiple users from bo
 Transactions are used to ensure consistency, rolling back in case of failures.
 
 If two users try to book the last seat at the same time, only the first one to get the lock will be able to complete the booking.
-```` ▋
