@@ -40,11 +40,9 @@ Ensure you have the following installed:
 #### Clone the repository:
 
 #### Install dependencies:
-```sh
-npm install
-```
 
 #### Set up the database:
+
 
 ## API Endpoints
 
@@ -90,7 +88,7 @@ npm install
 
 **Method:** POST
 
-**Endpoint:** `/user/book`
+**Endpoint:** `/user/bookTickets`
 
 **Request Body:**
 ```json
@@ -104,7 +102,7 @@ npm install
 
 **Method:** GET
 
-**Endpoint:** `/user/getAllbookings`
+**Endpoint:** `/user/getBookingDetails`
 
 **Response:**
 ```json
@@ -142,7 +140,7 @@ npm install
 
 **Method:** PUT
 
-**Endpoint:** `/admin/update-seats/10`
+**Endpoint:** `/admin/update-seats/2`
 
 **Request Body:**
 ```json
